@@ -55,11 +55,9 @@ source ~/.bashrc
 
 2. Install Dependencies:
 ```shell
-sudo apt-get install libeigen3-dev libxml2-dev coinor-libipopt-dev qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qml-module-qtquick2 qml-module-qtquick-window2 qml-module-qtmultimedia qml-module-qtquick-dialogs qml-module-qtquick-controls qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings ros-foxy-xacro ros-foxy-test-msgs ros-foxy-ackermann-msgs ros-foxy-joint-state-publisher ros-foxy-ament-cmake-*
+sudo apt-get install libeigen3-dev libxml2-dev coinor-libipopt-dev qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qml-module-qtquick2 qml-module-qtquick-window2 qml-module-qtmultimedia qml-module-qtquick-dialogs qml-module-qtquick-controls qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings ros-foxy-xacro ros-foxy-test-msgs ros-foxy-ackermann-msgs ros-foxy-joint-state-publisher ros-foxy-ament-cmake-* swig
 ```
-```shell
-sudo apt-get install swig
-```
+
 3. Install Turtlebot3
 ```shell
 sudo apt install -y gazebo11 ros-foxy-gazebo-ros-pkgs ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-navigation2 ros-foxy-nav2-bringup ros-foxy-turtlebot3* python3-vcstool
