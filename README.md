@@ -58,8 +58,7 @@ source ~/.bashrc
 sudo apt-get install libeigen3-dev libxml2-dev coinor-libipopt-dev qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qml-module-qtquick2 qml-module-qtquick-window2 qml-module-qtmultimedia qml-module-qtquick-dialogs qml-module-qtquick-controls qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings ros-foxy-xacro ros-foxy-test-msgs ros-foxy-ackermann-msgs ros-foxy-joint-state-publisher
 ```
 ```shell
-sudo apt install python3-pip
-pip install swig
+sudo apt-get install swig
 ```
 3. Install Turtlebot3
 ```shell
