@@ -82,7 +82,6 @@ ros2 launch panda_ros2_gazebo gazebo.launch.py
 mkdir -p ~/assignment2/src
 cd ~/assignment2/src
 git clone https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment2.git
-git clone -b foxy-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
 cd ..
 colcon build
 ```
