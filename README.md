@@ -16,7 +16,7 @@ If your laptop does not have the Ubuntu operating system installed, you can use 
     For Mac systems, refer to this [video](https://www.youtube.com/watch?v=Hzji7w882OY) for installation.
 
 ## Installation
-### Check out the [docker](https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment1_Docker) directory if you want to build this project without installing all the dependencies on your system.
+### Check out the [docker](https://github.com/HyPAIR/panda_ros2_gazebo.git) directory if you want to build this project without installing all the dependencies on your system.
 ### Otherwise, follow the steps below to complete the installation on your machine.
 1. Install ROS2 FOXY:
 
