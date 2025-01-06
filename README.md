@@ -10,10 +10,12 @@ Assignments for robotics motion planning and control module in the University of
  - ROS2 FOXY
  - Ubuntu 20.04
 If your laptop does not have the Ubuntu operating system installed, you can use a virtual machine to install Ubuntu 20.04:
+
     For Windows systems, refer to this [video](https://www.youtube.com/watch?v=x5MhydijWmc) for installation.
+
     For Mac systems, refer to this [video](https://www.youtube.com/watch?v=Hzji7w882OY) for installation.
 
-## Installation:
+## Installation
 ### Check out the [docker](https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment1_Docker) directory if you want to build this project without installing all the dependencies on your system.
 ### Otherwise, follow the steps below to complete the installation on your machine.
 1. Install ROS2 FOXY:
