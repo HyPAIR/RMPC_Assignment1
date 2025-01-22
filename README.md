@@ -74,7 +74,7 @@ sudo apt install -y gazebo11 ros-foxy-gazebo-ros-pkgs ros-foxy-cartographer ros-
 ```shell
 mkdir -p ~/assignment1/src
 cd ~/assignment1/src
-git clone https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment1.git
+git clone https://github.com/HyPAIR/RMPC_Assignment1.git
 cd ..
 colcon build --merge-install --cmake-args -DIDYNTREE_USES_PYTHON=True -DIDYNTREE_USES_IPOPT:BOOL=ON -DCMAKE_BUILD_TYPE=Release
 ```
@@ -88,7 +88,7 @@ ros2 launch panda_ros2_gazebo gazebo.launch.py
 ```shell
 mkdir -p ~/assignment2/src
 cd ~/assignment2/src
-git clone https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment2.git
+git clone https://github.com/HyPAIR/RMPC_Assignment2.git
 cd ..
 colcon build
 ```
