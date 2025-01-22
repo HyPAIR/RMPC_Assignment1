@@ -84,16 +84,14 @@ source install/setup.bash
 ros2 launch panda_ros2_gazebo gazebo.launch.py
 ```
 
-4. Build Assignment2:
+Forward Kinematics
 ```shell
-mkdir -p ~/assignment2/src
-cd ~/assignment2/src
-git clone https://github.com/HyPAIR/RMPC_Assignment2.git
-cd ..
-colcon build
+cd ~/assignment1/src/RMPC_Assignment1/assignment
+python3 forword_kinematics.py
 ```
 
+Inverse Kinematics
 ```shell
-source install/setup.bash
-ros2 launch turtlebot3_navigation2 navigation2.launch.py 
+cd ~/assignment1/src/RMPC_Assignment1/assignment
+python3 inverse_kinematics.py
 ```
